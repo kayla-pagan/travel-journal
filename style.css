@@ -8,11 +8,6 @@ htm, body {
     font-family: 'Inter', sans-serif;
 }
 
-
-#root {
-    height: 100vh;
-}
-
 .flex {
     display: flex;
 }
@@ -115,5 +110,3 @@ header p {
         font-size: 18px;
     }
 }
-
-

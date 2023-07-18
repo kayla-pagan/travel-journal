@@ -416,6 +416,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function App() {
     var cards = _data2.default.map(function (item) {
         return _react2.default.createElement(_Card2.default, {
+            key: item.id,
             item: item
         });
     });
@@ -428,11 +429,6 @@ function App() {
             'div',
             { className: 'cards-container' },
             cards
-        ),
-        _react2.default.createElement(
-            'p',
-            null,
-            'more adventures to come...'
         )
     );
 }
@@ -588,6 +584,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 exports.default = [{
+    id: 1,
     title: "San Juan",
     location: "Puerto Rico",
     googleMapsUrl: "https://goo.gl/maps/fyRqmE2LkN548iPh7",
@@ -596,6 +593,7 @@ exports.default = [{
     description: "San Juan is the capital and most populous city in Puerto Rico. A place where the Old World meets the new in fascinating ways, San Juan is also a hub of more modern pursuits, including shopping, dining, and nightlife.",
     imageUrl: "./images/san-juan.avif"
 }, {
+    id: 2,
     title: "Governor's Beach",
     location: "Grand Turk",
     googleMapsUrl: "https://goo.gl/maps/VVBJXkjNj87onzWHA",
@@ -604,6 +602,7 @@ exports.default = [{
     description: "Governor’s Beach is the best beach on Grand Turk. The site gets its name from being the location of the Governor’s mansion, Waterloo, which is found a short distance away from the main beach access.",
     imageUrl: "../images/turks.avif"
 }, {
+    id: 3,
     title: "Salt Lake Willibrordus",
     location: "Curaçao",
     googleMapsUrl: "https://goo.gl/maps/32jKCqAiz7b1egKc7",

@@ -7,4 +7,4 @@ to reuse my components instead of hard coding values inside of them.
 Also this gave me a chance to showcase some of the places I have traveled to so
 far as I plan to start traveling more often now that the pandemic is over with!
 
-Please check my travel journal out at
+Please check my travel journal out at https://eclectic-youtiao-d50bdb.netlify.app

@@ -9,7 +9,7 @@ export default function Card(props){
                 <div className="card--location flex align-center">
                     <img src="../images/location-icon.png" />
                     <p>{props.item.location}</p>
-                    <a href={props.item.googleMapsUrl}>View on Google Maps</a>
+                    <a href={props.item.googleMapsUrl} target="_blank">View on Google Maps</a>
                 </div>
                 <h1 className="card--title">{props.item.title}</h1>
                 <p className="card--date">{props.item.startDate} - {props.item.endDate}</p>
